@@ -264,7 +264,6 @@
   height: 93.6288088643%;
 }
 
-/        /* SVG shapes for background aesthetics */
         .masthead-device-mockup .circle,
         .masthead-device-mockup .small-dot { /* New class for the small dot */
             position: absolute;
@@ -440,13 +439,13 @@
         }
 
         .app-screenshot img {
-            width: 100%;
-            height: 350px; /* Altura fija para capturas de pantalla */
-            object-fit: cover;
-            display: block;
-            border-radius: 15px; /* Ensure image also has rounded corners */
+        width: 270px;
+        height: 600px;
+        object-fit: cover;
+        display: block;
+        border-radius: 15px;
         }
-
+        
         .app-screenshot p {
             padding: 15px;
             font-size: 0.95rem;
